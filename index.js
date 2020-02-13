@@ -64,3 +64,7 @@ function wagesEarnedOnDate(date) {
 function findEmployeeByFirstName(srcArray, firstName) {
   return srcArray.find(record => record.firstName == firstName);
 }
+
+function calculatePayroll(array_of_employees) {
+  array_of_employees.reduce(wagesEarnedOnDate, 0)
+}
