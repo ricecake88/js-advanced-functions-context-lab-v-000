@@ -57,6 +57,6 @@ let hoursWorkedOnDate = function(date) {
 }
 
 function wagesEarnedOnDate(date) {
-  let hours = createEmployeeRecord.call(hoursWorkedOnDate, date);
+  let hours = record.call(hoursWorkedOnDate, date);
   console.log(hours)
 }
