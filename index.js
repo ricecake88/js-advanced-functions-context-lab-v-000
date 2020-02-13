@@ -62,5 +62,5 @@ function wagesEarnedOnDate(date) {
 }
 
 function findEmployeeByFirstName(srcArray, firstName) {
-  return srcArray.find(record => record.firstName == firstName)
+  return srcArray.find(record => record.firstName == firstName);
 }
