@@ -56,10 +56,6 @@ let hoursWorkedOnDate = function(date) {
   return (timeOutRecord.hour - timeInRecord.hour)/100
 }
 
-let wagesEarnedOnDate = function(date) {
-  console.log("WagesEarnedOnDate");
-  let hours = hoursWorkedOnDate.call(date);
-  console.log(hours);
-  return hours;
+function wagesEarnedOnDate(date) {
+  
 }
-
